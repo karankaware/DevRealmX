@@ -1,4 +1,4 @@
-# 🧠 Django Community Room Web App
+# 🧠 DevRealmX
 
 A full-stack web application built with Django where users can create and join rooms to discuss topics of interest. It includes user authentication, messaging features, topic filtering, and user profile customization.
 
@@ -54,7 +54,22 @@ A full-stack web application built with Django where users can create and join r
 - **ORM:** Django ORM for all DB operations
 
 
+## 📡 REST API Integration
 
+Implemented a simple RESTful API using **Django REST Framework** to allow external access to room data.
+
+### 🔗 Available Endpoints
+
+- `GET /api` — Overview of available API routes  
+- `GET /api/rooms` — Fetch a list of all rooms (returns JSON)  
+- `GET /api/rooms/:id` — Retrieve details of a specific room by its ID  
+
+### ⚙️ Key Features
+
+- Easy integration with frontend frameworks (React, Vue, etc.)
+- Serialization of room data using `RoomSerializer`
+- RESTful design principles for clean and scalable endpoints
+- CORS-friendly setup for cross-origin resource sharing (if frontend is separate)
 
 
 ---
